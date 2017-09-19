@@ -2,5 +2,30 @@
   min-height: 100vh;
   width: 100vw;
 
-  background-color: lightgrey;
+  /*background-color: lightgrey;*/
+}
+
+#SplashHead {
+  min-height: 100vh;
+  height: 100vh;
+  width: 100vw;
+
+  background-color: rgba(0,0,0,0.4);
+}
+
+#SplashBody {
+  min-height: 100vh;
+  height: 100vh;
+  width: 100vw;
+
+  background-color: whitesmoke;
+}
+
+.couldBuyItem {
+  height: 500px;
+  width: 250px;
+  background-color: grey;
+  border: 1px solid #000;
+  list-style-type: none;
+  margin: 20px;
 }

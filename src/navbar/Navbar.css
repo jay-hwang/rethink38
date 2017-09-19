@@ -7,16 +7,12 @@
   top: 0;
   right: 0;
 
-  background-color: rgba(0,0,0, 0.2);
-
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
 #Navbar span {
-  /*font-family: Arial;*/
   font-size: 23px;
   color: #fff;
-  /*letter-spacing: 1px;*/
 }
