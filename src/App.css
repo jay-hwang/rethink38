@@ -16,3 +16,7 @@
 .flex-direction--column {
   flex-direction: column;
 }
+
+.color--white {
+  color: #fff;
+}
