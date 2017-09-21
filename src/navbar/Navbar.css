@@ -1,18 +1,34 @@
 #Navbar {
-  height: 100px;
-  min-width: 500px;
-  width: 60%;
+  height: 140px;
+  width: 100%;
 
   position: fixed;
   top: 0;
   right: 0;
 
   display: flex;
+  justify-content: space-between;
+}
+
+#nav-logo {
+  height: 140px;
+  width: 140px;
+  background: url("https://res.cloudinary.com/ddgtwtbre/image/upload/v1506032955/Screen_Shot_2017-09-19_at_3.42.29_PM_di3so3.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#nav-links {
+  height: 100px;
+  min-width: 500px;
+  width: 60%;
+  display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
-#Navbar span {
+#nav-links li {
   font-size: 23px;
   color: #fff;
 }

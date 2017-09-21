@@ -1,8 +1,6 @@
 #Splash {
   min-height: 100vh;
   width: 100vw;
-
-  /*background-color: lightgrey;*/
 }
 
 #SplashHead {
@@ -10,22 +8,52 @@
   height: 100vh;
   width: 100vw;
 
-  background-color: rgba(0,0,0,0.4);
+  background: url('https://res.cloudinary.com/ddgtwtbre/image/upload/v1506034887/rethink-head-bg-img_xaiv6r.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#Rethink38-title {
+  font-size: 75px;
+  font-weight: 900;
+  letter-spacing: 3px;
+  margin-top: 2.5em;
+  margin-bottom: 10px;
+}
+
+#splashHead-p {
+  max-width: 675px;
+  text-align: center;
+  line-height: 40px;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
 }
 
 .sponsor-btn {
-  height: 75px;
-  width: 260px;
+  height: 85px;
+  width: 280px;
 
   background-color: #fb9835;
 
   font-size: 23px;
   letter-spacing: 1px;
-  font-weight: 300;
+  font-weight: 500;
   color: #fff;
 
   border: none;
   border-radius: 50px;
+  cursor: pointer;
+
+  transition: all .15s ease-in;
+}
+
+.sponsor-btn:hover {
+  filter: brightness(115%);
 }
 
 
