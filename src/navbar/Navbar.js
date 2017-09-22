@@ -7,7 +7,7 @@ class Navbar extends React.Component {
     return (
       <nav id='Navbar'>
         <div id='hidden-nav-bg' className='hide'>
-          <div id='nav-logo' className='hidden-nav-logo'></div>
+          <div id='hidden-nav-logo'></div>
         </div>
 
         <ul id='nav-links'>

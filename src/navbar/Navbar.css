@@ -24,9 +24,18 @@
   left: 0;
 }
 
-.hidden-nav-logo {
-  height: 100px !important;
-  width: 100px !important;
+#hidden-nav-logo {
+  height: 100px;
+  width: 150px;
+
+  background: url("https://res.cloudinary.com/ddgtwtbre/image/upload/v1506043830/white-logo_ps90wh.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 #nav-links {
