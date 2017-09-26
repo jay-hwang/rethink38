@@ -7,6 +7,8 @@ import SplashHead from './SplashHead';
 import SplashBody from './SplashBody';
 
 export default class Splash extends React.Component {
+  
+
   render() {
     return (
       <Layout>
