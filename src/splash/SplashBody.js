@@ -22,6 +22,27 @@ export default class SplashBody extends React.Component {
             botItemUrl={`https://res.cloudinary.com/ddgtwtbre/image/upload/v1506469150/mentorship_eohwnj.png`}
             botItemText={`Ongoing mentorship and connecting a child with mentors that truly care about them past the classroom door, even past graduation`}
           />
+
+          <ItemCompare
+            topItemUrl={`https://res.cloudinary.com/ddgtwtbre/image/upload/v1506469150/movie_tix_soda_ydh7ek.png`}
+            topItemText={`2 movie tickets and 2 large sodas`}
+            botItemUrl={`http://res.cloudinary.com/ddgtwtbre/image/upload/v1506469150/groceries_fwdm4z.png`}
+            botItemText={`Meeting the immediate weekly needs of hunger that plague children and families`}
+          />
+
+          <ItemCompare
+            topItemUrl={`https://res.cloudinary.com/ddgtwtbre/image/upload/v1506469150/coffee_csfujh.png`}
+            topItemText={`2 weeks of coffee`}
+            botItemUrl={`https://res.cloudinary.com/ddgtwtbre/image/upload/v1506469151/school_supplies_jzvpf9.png`}
+            botItemText={`Making sure a child is not without the necessities for school each month`}
+          />
+
+          <ItemCompare
+            topItemUrl={`https://res.cloudinary.com/ddgtwtbre/image/upload/v1506475215/xbox_e4cffh.png`}
+            topItemText={`6 months of Xbox Live`}
+            botItemUrl={`https://res.cloudinary.com/ddgtwtbre/image/upload/v1506475216/extra_uqifvy.png`}
+            botItemText={`provided outlets and opportunities to children to partake in music, sports and the arts`}
+          />
         </ul>
       </div>
     );
