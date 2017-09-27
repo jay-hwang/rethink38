@@ -41,7 +41,7 @@ export default class SplashBody extends React.Component {
             topItemUrl={`https://res.cloudinary.com/ddgtwtbre/image/upload/v1506475215/xbox_e4cffh.png`}
             topItemText={`6 months of Xbox Live`}
             botItemUrl={`https://res.cloudinary.com/ddgtwtbre/image/upload/v1506475216/extra_uqifvy.png`}
-            botItemText={`provided outlets and opportunities to children to partake in music, sports and the arts`}
+            botItemText={`Provide outlets and opportunities to children to partake in music, sports and the arts`}
           />
         </ul>
       </div>

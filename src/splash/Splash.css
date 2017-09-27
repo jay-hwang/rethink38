@@ -63,7 +63,7 @@
 #SplashBody {
   min-height: 100vh;
   width: 100vw;
-  background-color: whitesmoke;
+  background-color: #fff;
   box-sizing: border-box;
   padding-top: 75px;
 
@@ -84,16 +84,20 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+
+  box-sizing: border-box;
+  padding: 20px 80px;
+  margin: 0 auto;
+
+  max-width: 1600px;
 }
 
 .itemCompare {
   height: 500px;
-  width: 250px;
+  width: 40%;
   list-style-type: none;
 
-  background-color: #d9d9d9;
-  border: 1px solid #9f9f9f;
-  margin: 20px;
+  margin: 35px;
   box-sizing: border-box;
   padding: 10px;
 
@@ -101,6 +105,12 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+}
+
+@media screen and (max-width: 850px) {
+  .itemCompare {
+    width: 80%;
+  }
 }
 
 .itemCompare-half {
@@ -119,15 +129,15 @@
 
 .item-text {
   text-align: center;
-  font-size: 14px;
-  line-height: 17px;
+  font-size: 17px;
+  line-height: 22px;
 
 }
 
 #itemCompare-div {
   width: 100%;
   height: 15px;
-
+  margin: 25px 0;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -135,7 +145,7 @@
 
 #divider {
   height: 1px;
-  width: 75px;
+  width: 37%;
   background-color: grey;
 }
 
