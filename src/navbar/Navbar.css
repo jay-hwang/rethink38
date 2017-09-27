@@ -1,22 +1,81 @@
 #Navbar {
   height: 100px;
-  min-width: 500px;
-  width: 60%;
+  width: 100%;
 
   position: fixed;
   top: 0;
   right: 0;
 
-  background-color: rgba(0,0,0, 0.2);
+  display: flex;
+  justify-content: flex-end;
+}
 
+#nav-logo {
+  height: 140px;
+  width: 140px;
+
+  background: url("https://res.cloudinary.com/ddgtwtbre/image/upload/v1506032955/Screen_Shot_2017-09-19_at_3.42.29_PM_di3so3.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#hidden-nav-logo {
+  height: 100px;
+  width: 150px;
+
+  background: url("https://res.cloudinary.com/ddgtwtbre/image/upload/v1506043830/white-logo_ps90wh.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#nav-links {
+  height: 100px;
+  min-width: 500px;
+  width: 60%;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  position: relative;
 }
 
-#Navbar span {
-  /*font-family: Arial;*/
+#nav-links li {
   font-size: 23px;
   color: #fff;
-  /*letter-spacing: 1px;*/
+}
+
+#hidden-nav-bg {
+  background: url("https://res.cloudinary.com/ddgtwtbre/image/upload/v1506038274/nav-bg_ejqvtk.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  transition: all .15s ease-in;
+  position: absolute;
+
+  top: 0;
+  left: 0;
+
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+.show {
+  transition: all .15s ease-in;
+  display: inline-block !important;
+}
+
+.hide {
+  transition: all .15s ease-in;
+  display: none !important;
 }

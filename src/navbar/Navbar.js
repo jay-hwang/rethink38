@@ -1,14 +1,18 @@
 import React from 'react';
 import './Navbar.css';
 
+// Components
+import NavMenuLinks from './NavMenuLinks';
+
 class Navbar extends React.Component {
   render() {
     return (
       <nav id='Navbar'>
-        <span id='Navbar-link'>ABOUT US</span>
-        <span id='Navbar-link'>OUR WORK</span>
-        <span id='Navbar-link'>GET INVOLVED</span>
-        <span id='Navbar-link'>DONATE</span>
+        <div id='hidden-nav-bg' className='hide'>
+          <div id='hidden-nav-logo'></div>
+        </div>
+
+        <NavMenuLinks/>
       </nav>
     );
   }

@@ -1,6 +1,151 @@
 #Splash {
   min-height: 100vh;
   width: 100vw;
+}
 
-  background-color: lightgrey;
+#SplashHead {
+  min-height: 100vh;
+  height: 100vh;
+  width: 100vw;
+
+  background: url('https://res.cloudinary.com/ddgtwtbre/image/upload/v1506034887/rethink-head-bg-img_xaiv6r.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#Rethink38-title {
+  font-size: 75px;
+  font-weight: 900;
+  letter-spacing: 3px;
+  margin-top: 2.5em;
+  margin-bottom: 10px;
+  max-width: 675px;
+  width: 90%;
+  text-align: center;
+}
+
+#splashHead-p {
+  max-width: 675px;
+  width: 90%;
+  text-align: center;
+  line-height: 40px;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+}
+
+.sponsor-btn {
+  height: 85px;
+  width: 280px;
+
+  background-color: #fb9835;
+
+  font-size: 23px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  color: #fff;
+
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+
+  transition: all .15s ease-in;
+}
+
+.sponsor-btn:hover {
+  filter: brightness(115%);
+}
+
+#SplashBody {
+  min-height: 100vh;
+  width: 100vw;
+  background-color: whitesmoke;
+  box-sizing: border-box;
+  padding-top: 75px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#SplashBody h3 {
+  font-size: 45px;
+  letter-spacing: 1px;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 55px;
+}
+
+#itemCompare-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.itemCompare {
+  height: 500px;
+  width: 250px;
+  list-style-type: none;
+
+  background-color: #d9d9d9;
+  border: 1px solid #9f9f9f;
+  margin: 20px;
+  box-sizing: border-box;
+  padding: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.itemCompare-half {
+  height: 40%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item-img {
+  max-height: 125px;
+  max-width: 200px;
+}
+
+.item-text {
+  text-align: center;
+  font-size: 14px;
+  line-height: 17px;
+
+}
+
+#itemCompare-div {
+  width: 100%;
+  height: 15px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#divider {
+  height: 1px;
+  width: 75px;
+  background-color: grey;
+}
+
+#divider-OR {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 1px solid grey;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
