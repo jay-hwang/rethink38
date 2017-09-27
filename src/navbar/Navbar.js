@@ -5,8 +5,6 @@ import './Navbar.css';
 import NavMenuLinks from './NavMenuLinks';
 
 class Navbar extends React.Component {
-
-
   render() {
     return (
       <nav id='Navbar'>
@@ -14,7 +12,7 @@ class Navbar extends React.Component {
           <div id='hidden-nav-logo'></div>
         </div>
 
-        {/*<NavMenuLinks/>*/}
+        <NavMenuLinks/>
       </nav>
     );
   }

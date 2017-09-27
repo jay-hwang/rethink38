@@ -11,7 +11,7 @@ export default class Layout extends React.Component {
   render() {
     return (
       <div id='Layout'>
-        <Navbar/>
+        {/*<Navbar/>*/}
         <div id='Layout-container'>
           {this.props.children}
         </div>
